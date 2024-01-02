@@ -74,7 +74,7 @@ const Navbar = ({ isDashboardLogin }) => {
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 }`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>
@@ -93,7 +93,7 @@ const Navbar = ({ isDashboardLogin }) => {
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 }`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>
